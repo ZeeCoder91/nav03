@@ -1,7 +1,7 @@
 .main-nav {
-    background-color: tomato;
+    background-color: thistle;
     border-radius: 3px;
-    color: white;
+    color: purple;
     display: flex;
     font-family: sans-serif;
     padding: 1em;
@@ -20,9 +20,9 @@
 }
 
 .main-nav > form {
-    display: flex; 
+    display: flex;
     flex: 1;
-    justify-content: flex-end;
+    flex-direction: flex-end;
     margin: 0;
 }
 
@@ -31,20 +31,10 @@
 }
 
 .main-nav button {
-    border: 0;
-    border-radius: 1em;
     background-color: white;
-    color: tomato;
+    border-radius: 1em;
+    border: 0;
+    color: purple;
     padding: 0 1em;
-    margin-left: .8em;
-}
-
-@media screen and (max-width: 575px) {
-    .main-nav {
-        flex-direction: column ;
-    }
-
-    .main-nav > ul {
-        margin-bottom: .3em;
-    }
+    margin-left: 1em;
 }
