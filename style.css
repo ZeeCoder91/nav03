@@ -32,9 +32,19 @@
 
 .main-nav button {
     border: 0;
-    border-radius: .5em;
+    border-radius: 1em;
     background-color: white;
     color: tomato;
     padding: 0 1em;
     margin-left: .8em;
+}
+
+@media screen and (max-width: 575px) {
+    .main-nav {
+        flex-direction: column ;
+    }
+
+    .main-nav > ul {
+        margin-bottom: .3em;
+    }
 }
