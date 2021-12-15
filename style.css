@@ -29,3 +29,22 @@
 .main-nav input {
     flex: 1;
 }
+
+.main-nav button {
+    background-color: white;
+    border: 0;
+    border-radius: 3px;
+    color: saddlebrown;
+    margin-left: 1em;
+    padding: 0 1em;
+}
+
+@media screen and (max-width: 575px) {
+    .main-nav {
+        flex-direction: column;
+    }
+
+    .main-nav > ul {
+        margin-bottom: 1em;
+    }
+}
